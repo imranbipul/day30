@@ -1,0 +1,57 @@
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header{
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: none;
+    z-index: 11;
+}
+
+.btn{
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 5px;
+    color: #000;
+}
+
+.dropdown .btn{
+    border:1px solid blue;
+}
+
+
+/* accordion-section */
+.accordion-section{
+    padding: 60px 0;
+    background: #0dcaf0;
+}
+.card{
+ margin-bottom: 15px;
+}
+.card-body img{
+    width: 100%;
+}
+/* progress */
+.progress-section{
+    padding: 60px 0;
+    background: #0d6efd;
+}
+.progress{
+    margin-bottom: 16px;
+}
+.custom-select{
+    cursor: pointer;
+}
+/* footer */
+.footer-section{
+    background-color: #1f2529;
+    padding: 25px;
+}
+.footer-section p{
+    color: #ddd;
+    text-align: center;
+}
